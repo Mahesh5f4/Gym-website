@@ -15,7 +15,7 @@ const Home = () => {
           <p>
             Address: One Way Junction, Amadalavalsa
           </p>
-          <p>Contact Numbers: 6758945098, 4567098765</p>
+          <p>Contact Numbers: 8096650681</p>
         </div>
 
         <div className="coach-info">

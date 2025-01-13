@@ -1,11 +1,14 @@
 /* Global Styles */
+/* Global Styles */
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #f0f4f8;
-  color: #333;
+  background: linear-gradient(135deg, #1e1e2f, #2a2a45, #000000); /* Dark gradient */
+  color: #f0f0f0; /* Light text color */
   line-height: 1.6;
 }
+
+
 
 .home {
   padding: 20px;
