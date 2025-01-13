@@ -1,0 +1,124 @@
+/* General styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f9f9f9, #e9ecef);
+  color: #333;
+}
+
+/* Page container */
+.diet-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.diet-page h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+/* Section styling */
+.diet-section {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.diet-section h2 {
+  font-size: 2rem;
+  color: #3d85c6;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Diet category styling */
+.diet-category {
+  margin-bottom: 20px;
+}
+
+.diet-category h3 {
+  font-size: 1.5rem;
+  color: #ff9800;
+  margin-bottom: 15px;
+}
+
+/* List styling */
+.diet-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.diet-category li {
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.diet-category li strong {
+  display: block;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.diet-category div {
+  font-size: 0.95rem;
+  margin-left: 10px;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .diet-page h1 {
+    font-size: 2rem;
+  }
+
+  .diet-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .diet-category h3 {
+    font-size: 1.3rem;
+  }
+
+  .diet-category li {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .diet-page h1 {
+    font-size: 1.8rem;
+  }
+
+  .diet-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .diet-category h3 {
+    font-size: 1.2rem;
+  }
+
+  .diet-category li {
+    font-size: 0.85rem;
+  }
+}
+
+/* For iOS Safari adjustments */
+body {
+  -webkit-text-size-adjust: 100%; /* Prevents text resizing */
+  -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  -webkit-padding-start: 0; /* Fixes iOS padding issues */
+}

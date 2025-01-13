@@ -1,0 +1,182 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+.home {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Gym Info Section */
+.gym-info {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.gym-info h1 {
+  font-size: 2.5rem;
+  color: #1d3557;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.gym-info p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Coach Info Section */
+.coach-info {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.coach-info h2 {
+  font-size: 2rem;
+  color: #1d3557;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.coach .coach-details {
+  margin-top: 20px;
+}
+
+.coach-details h3 {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.coach-details p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.coach-details img,
+.coach-details video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.coach-details video {
+  max-width: 100%;
+}
+
+/* Gym Photos Section */
+.gym-photos {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.gym-photos h2 {
+  font-size: 2rem;
+  color: #1d3557;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.photo-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .gym-info h1 {
+    font-size: 2rem;
+  }
+
+  .coach-info h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .gym-info h1 {
+    font-size: 1.8rem;
+  }
+
+  .gym-info p {
+    font-size: 1rem;
+  }
+
+  .coach-info h2 {
+    font-size: 1.6rem;
+  }
+
+  .coach .coach-details {
+    text-align: center;
+  }
+
+  .coach-details img,
+  .coach-details video {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .photo-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .home {
+    padding: 15px;
+  }
+
+  .gym-info h1 {
+    font-size: 1.6rem;
+  }
+
+  .coach-info h2 {
+    font-size: 1.5rem;
+  }
+
+  .gym-info p {
+    font-size: 0.9rem;
+  }
+
+  .coach-details img,
+  .coach-details video {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .photo-gallery {
+    grid-template-columns: 1fr;
+  }
+}
