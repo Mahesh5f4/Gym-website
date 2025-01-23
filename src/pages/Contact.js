@@ -24,7 +24,7 @@ const Contact = () => {
       </form>
       <div className="contact-info">
         <h2>Other Contact Methods</h2>
-        <p>Email: info@gym.com</p>
+        <p>Email: AU@gym.com</p>
         <p>Phone:8096650681</p>
         <p>Address: Beside Konark Bakery oneway junction Amadalavalsa</p>
       </div>

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>&copy; 2025 AU GYM. All rights reserved.
-        Developed By Mahesh 
+        Developed By Mahesh and Ganesh
       </p>
       <a href='https://www.instagram.com/gymsankar_/?utm_source=ig_web_button_share_sheet'>Click here to follow  us on Instagram</a>
     </footer>
